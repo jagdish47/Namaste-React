@@ -1,2 +1,3 @@
-# Namaste-React
-I am sharing all the learnig material and Assignment here. 
+# Namaste-React by Akshay Saini
+
+Hello Guys
