@@ -1,40 +1,40 @@
 # What is `NPM`?
 
-    NPM is a default package manager of javascript.<br>
-    NPM manages all the packages that you use/need in your projects.
+NPM is a default package manager of javascript.<br>
+NPM manages all the packages that you use/need in your projects.
 
 <br>
 
 # What is `Parcel/Webpack`? Why do we need it?
 
-    Parcel and Webpack are both JavaScript bundlers. They take modules with dependencies and generate static assets that represent those modules.
+Parcel and Webpack are both JavaScript bundlers. They take modules with dependencies and generate static assets that represent those modules.
 
-    JavaScript is often used to build single-page web applications that consist of many smaller modules, and these modules may have dependencies on other modules. For example, one module might contain a function that depends on another module containing a utility that it uses. In order to use these modules in a web browser, they need to be bundled together into a single file (or a few files) that can be loaded by the browser. This is where a JavaScript bundler like Parcel or Webpack comes in.
+JavaScript is often used to build single-page web applications that consist of many smaller modules, and these modules may have dependencies on other modules. For example, one module might contain a function that depends on another module containing a utility that it uses. In order to use these modules in a web browser, they need to be bundled together into a single file (or a few files) that can be loaded by the browser. This is where a JavaScript bundler like Parcel or Webpack comes in.
 
-    Parcel and Webpack are both tools that can be used to bundle your JavaScript modules into a single file (or a few files) that can be loaded by a web browser. They both have their own approaches and features, and which one you choose to use will depend on your specific needs and preferences.
+Parcel and Webpack are both tools that can be used to bundle your JavaScript modules into a single file (or a few files) that can be loaded by a web browser. They both have their own approaches and features, and which one you choose to use will depend on your specific needs and preferences.
 
-    Some of the benefits of using a JavaScript bundler like Parcel or Webpack include: <br>
-    1.HMR - (Hot Module reloding) <br> 2.File Watcher Algorithm <br> 3.Building <br> 4.Minify <br> 5.cleaning our code <br> 6.super fast <br> 7. HTTPS <br> 8.Image Optimization <br> 9. caching while development <br> 10. Compression <br> 11. Compatable with older version of browser <br> 12. Consistent Hasing Algorithm <br> 13. Zero config <br> 14. creater server for you <br> 15. Tree shaking
+Some of the benefits of using a JavaScript bundler like Parcel or Webpack include: <br>
+1.HMR - (Hot Module reloding) <br> 2.File Watcher Algorithm <br> 3.Building <br> 4.Minify <br> 5.cleaning our code <br> 6.super fast <br> 7. HTTPS <br> 8.Image Optimization <br> 9. caching while development <br> 10. Compression <br> 11. Compatable with older version of browser <br> 12. Consistent Hasing Algorithm <br> 13. Zero config <br> 14. creater server for you <br> 15. Tree shaking
 
 # What is `.parcel-cache
 
-    .parcel-cache is a directory that is used by the JavaScript bundler Parcel to store cache files.
+.parcel-cache is a directory that is used by the JavaScript bundler Parcel to store cache files.
 
-    When you run Parcel to bundle your code, it will create a .parcel-cache directory in the root of your project to store cache files. These cache files are used to speed up the bundling process by storing information about the files that have been processed, so that Parcel doesn't have to re-process them again if they haven't changed.
+When you run Parcel to bundle your code, it will create a .parcel-cache directory in the root of your project to store cache files. These cache files are used to speed up the bundling process by storing information about the files that have been processed, so that Parcel doesn't have to re-process them again if they haven't changed.
 
-    The .parcel-cache directory is typically hidden, so you might not see it unless you have your operating system's file explorer set to show hidden files. It is safe to delete the .parcel-cache directory if you need to, but keep in mind that doing so will clear the cache and may cause the bundling process to take longer the next time you run it.
+The .parcel-cache directory is typically hidden, so you might not see it unless you have your operating system's file explorer set to show hidden files. It is safe to delete the .parcel-cache directory if you need to, but keep in mind that doing so will clear the cache and may cause the bundling process to take longer the next time you run it.
 
 # What is `npx` ?
 
-    npx allows you to run npm packages that you have installed locally or globally, without having to specify the full path to the package executable.
+npx allows you to run npm packages that you have installed locally or globally, without having to specify the full path to the package executable.
 
-    This is useful because it means you don't have to type out the full path to the package executable every time you want to run it. npx will automatically find and run the executable file for you.
+This is useful because it means you don't have to type out the full path to the package executable every time you want to run it. npx will automatically find and run the executable file for you.
 
-    In addition to running executables from local or global packages, npx can also be used to run npm packages that are not installed on your local machine. When you run npx with the name of a package that is not installed, it will automatically download and install the package from the npm registry, and then run the executable file for you.
+In addition to running executables from local or global packages, npx can also be used to run npm packages that are not installed on your local machine. When you run npx with the name of a package that is not installed, it will automatically download and install the package from the npm registry, and then run the executable file for you.
 
 # What is difference between `dependencies` vs `devDependencies`
 
-    **dependencies:** Packages listed under the dependencies property are required for your project to run in production. They should include packages that are needed to run the application or packages that are needed by other packages in the dependencies list. When you run npm install, npm will install these packages and any of their dependencies in the dependencies list.
+**dependencies:** Packages listed under the dependencies property are required for your project to run in production. They should include packages that are needed to run the application or packages that are needed by other packages in the dependencies list. When you run npm install, npm will install these packages and any of their dependencies in the dependencies list.
 
     **devDependencies:** Packages listed under the devDependencies property are only needed for development and are not required to run the application in production. They might include development tools, testing frameworks, linters, etc. When you run npm install, npm will only install these packages if the --production flag is not set (or if the NODE_ENV environment variable is not set to production).
 
