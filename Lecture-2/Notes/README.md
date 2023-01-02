@@ -42,31 +42,31 @@ By separating the packages that are required for production from those that are 
 
 # What is Tree Shaking?
 
-    Tree shaking is a term that refers to the ability to remove unused code from your JavaScript bundle. It is a technique that is often used to reduce the size of JavaScript bundles and improve the performance of web applications.
+Tree shaking is a term that refers to the ability to remove unused code from your JavaScript bundle. It is a technique that is often used to reduce the size of JavaScript bundles and improve the performance of web applications.
 
-    Tree shaking works by analyzing the dependencies between modules and removing any code that is not actually used by the application. For example, if a module exports several functions, but the application only uses one of those functions, the tree shaking process will remove the code for the unused functions from the bundle. This can help reduce the size of the bundle and improve the performance of the application.
+Tree shaking works by analyzing the dependencies between modules and removing any code that is not actually used by the application. For example, if a module exports several functions, but the application only uses one of those functions, the tree shaking process will remove the code for the unused functions from the bundle. This can help reduce the size of the bundle and improve the performance of the application.
 
 # What is Hot Module Replacement?
 
-    Hot Module Replacement (HMR) is a feature that allows you to update parts of your application without having to fully reload the page. It is typically used during development to speed up the process of making changes and testing them.
+Hot Module Replacement (HMR) is a feature that allows you to update parts of your application without having to fully reload the page. It is typically used during development to speed up the process of making changes and testing them.
 
-    When HMR is enabled, the application will listen for changes to certain types of modules, and when a change is detected, it will automatically update the relevant part of the application without reloading the page. This can save a lot of time and make the development process more efficient, as you don't have to manually refresh the page every time you make a change.
+When HMR is enabled, the application will listen for changes to certain types of modules, and when a change is detected, it will automatically update the relevant part of the application without reloading the page. This can save a lot of time and make the development process more efficient, as you don't have to manually refresh the page every time you make a change.
 
-    HMR is typically used in combination with a build tool or bundler, such as Webpack or Parcel, which is responsible for detecting changes to the application's modules and triggering the HMR process.
+HMR is typically used in combination with a build tool or bundler, such as Webpack or Parcel, which is responsible for detecting changes to the application's modules and triggering the HMR process.
 
-    To use HMR, you will need to configure your build tool or bundler to enable the feature, and you will also need to update your application code to support HMR. The specific steps for doing this will depend on the tools and frameworks you are using.
+To use HMR, you will need to configure your build tool or bundler to enable the feature, and you will also need to update your application code to support HMR. The specific steps for doing this will depend on the tools and frameworks you are using.
 
 # List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
 
-    Zero configuration: One of the most appealing aspects of Parcel is that it requires zero configuration to get started. This means you can jump right in and start bundling your code without having to spend time setting up a configuration file or manually installing and configuring plugins and loaders.
+Zero configuration: One of the most appealing aspects of Parcel is that it requires zero configuration to get started. This means you can jump right in and start bundling your code without having to spend time setting up a configuration file or manually installing and configuring plugins and loaders.
 
-    Fast performance: Parcel is known for being fast and efficient. It uses a clever algorithm to determine the optimal way to bundle your code, and it can also make use of multiple cores and worker processes to speed up the bundling process.
+Fast performance: Parcel is known for being fast and efficient. It uses a clever algorithm to determine the optimal way to bundle your code, and it can also make use of multiple cores and worker processes to speed up the bundling process.
 
-    Support for a wide range of file types: Parcel can handle a wide range of file types, including JavaScript, TypeScript, CSS, HTML, and even images and fonts. It uses plugins and loaders to process these different file types, and it can automatically install and configure the necessary plugins as needed.
+Support for a wide range of file types: Parcel can handle a wide range of file types, including JavaScript, TypeScript, CSS, HTML, and even images and fonts. It uses plugins and loaders to process these different file types, and it can automatically install and configure the necessary plugins as needed.
 
-    Hot Module Replacement (HMR): As mentioned earlier, HMR allows you to update parts of your application without having to fully reload the page. Parcel supports HMR out of the box, so you can take advantage of this feature to speed up your development workflow.
+Hot Module Replacement (HMR): As mentioned earlier, HMR allows you to update parts of your application without having to fully reload the page. Parcel supports HMR out of the box, so you can take advantage of this feature to speed up your development workflow.
 
-    Server-side rendering (SSR): Parcel can also be used to build applications that are designed for server-side rendering (SSR). This means that the initial rendering of the application can be done on the server, rather than in the browser, which can improve the performance and SEO of the application.
+Server-side rendering (SSR): Parcel can also be used to build applications that are designed for server-side rendering (SSR). This means that the initial rendering of the application can be done on the server, rather than in the browser, which can improve the performance and SEO of the application.
 
 # What is `.gitignore`? What should we add and not add into it?
 
