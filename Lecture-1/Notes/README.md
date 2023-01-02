@@ -31,6 +31,12 @@ Whenever you upload you website on server than a copy to website will delivery t
 
 # What is Cross-Origin ?
 
+Cross-Origin Resource Sharing (CORS) is a mechanism that allows web pages to make requests to a server from a different domain than the one that served the web page. This is done to prevent web pages from making requests to a different domain that could potentially be malicious or compromise user data.
+
+CORS works by adding HTTP headers to server responses that instruct web browsers on how to handle cross-origin requests. Web browsers will only allow web pages to make requests to a different domain if the server responds with the appropriate CORS headers, or if the server is on a list of trusted domains that the web browser has been configured to allow.
+
+CORS is an important security feature that helps protect web users from malicious websites that might try to steal user data or perform other malicious actions by making requests to other websites on behalf of the user.
+
 # What is async and defer?
 
 **Script** <br>
